@@ -9,11 +9,15 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function sum(a, b) { //eslint-disable-line
-
+let sum = a + b;
+let message = `The sum of ${4} and ${7} is ${sum}.`;
+return [sum,message];
 }
+let sumReturn = sum(4,7);
+console.log(sumReturn);
 
 // Here is the test for sum(); uncomment it to run it
-// testSum(4, 7);
+ //testSum(4, 7);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -26,12 +30,16 @@ Write a function called multiply() that takes in two numbers as arguments and re
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testMultiply() function and see if the test passes.*/
 
 // Write your code here
-function multiply(a, b) { //eslint-disable-line
-
+function multiply(5, 9) { //eslint-disable-line
+let sum = 3 * 5;
+let message = `The product of ${5} and ${9} is ${sum}.`;
+return [[0], message];
 }
+let sumReturn = sum(5,9);
+console.log(sumReturn);
 
 // Here is the test for multiply(); uncomment it to run it
-// testMultiply(5,9);
+ //testMultiply(5,9);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop. Don't forget to create a new branch for your work on the next question!
 
@@ -47,8 +55,9 @@ IMPORTANT DETAIL: You may not use the arithmetic operators + and * in this funct
 Test this function by hand in the console to get it working, and when you think it is finished, uncomment the call for the testSumAndMultiply() function and see if the test passes.*/
 
 // Write your code here
-function sumAndMultiply(a, b, c) { //eslint-disable-line
-
+function sumAndMultiply(4, 7, 5) { //eslint-disable-line
+let sum 
+let message = ''
 }
 
 // Here is the test for sumAndMultiply(); uncomment it to run it
@@ -91,7 +100,8 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) { //eslint-disable-line
-
+let sum 
+let message 'The numbers 2,3,4 have a product of 24.'
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
